@@ -1,0 +1,45 @@
+header{
+    padding: 0 1 rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    input [type ="checkbox"]{
+        display: none;
+    }
+}
+
+header .hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    .line{
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        transition: all 0.3 ease-in-out;
+    }
+}
+
+.branding{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    margin-left: 1rem;
+    text-align: center;
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+}
